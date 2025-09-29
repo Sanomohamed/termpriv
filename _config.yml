@@ -1,0 +1,23 @@
+title: TikTok API Demo Legal Pages
+description: Terms of Service and Privacy Policy for TikTok Content Posting API Demo
+theme: minima
+plugins:
+  - jekyll-redirect-from
+
+# Enable HTTPS redirect
+enforce_ssl: your-domain.com
+
+# Site settings
+url: "https://your-domain.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
